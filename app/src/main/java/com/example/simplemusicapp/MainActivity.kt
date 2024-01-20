@@ -1,11 +1,11 @@
 package com.example.simplemusicapp
 
+import MyAdapter
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import androidx.recyclerview.widget.RecyclerView
 import com.example.simplemusicapp.Remote.ApiInterface
-import com.example.simplemusicapp.adapter.MyAdapter
 import com.example.simplemusicapp.pojo.Mydata
 import com.google.gson.Gson
 import retrofit2.Call
